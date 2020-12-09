@@ -1,7 +1,7 @@
 import { css } from '@emotion/core';
 
 export const styWrapper = css`
-  background: #ffffff;
+  background: #fefdfd;
 
   .sub-title {
     color: var(--font-black-ui);
