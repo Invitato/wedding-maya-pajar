@@ -53,8 +53,8 @@ export const WEDDING_LOCATION_AKAD = WEDDING_LOCATION;
  * @constants
  * for footer sections
  */
-export const SOUND_BY = `Elvis Presley - Can't Help Falling In Love With You (Saxophone Cover by Alexandra)`;
-export const SOUND_URL = 'https://www.youtube.com/watch?v=llcQu-XB6oE&feature=youtu.be&ab_channel=AlexandraIlieva';
+export const SOUND_BY = `Where Is Dream│START UP 스타트업 OST│10cm│Sheet 악보│Piano Cover`;
+export const SOUND_URL = 'https://youtu.be/_OqVChL--8Y';
 
 /**
  * @constants
