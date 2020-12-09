@@ -3,7 +3,7 @@ import { object, string, bool, func } from 'prop-types';
 import { animateScroll } from 'react-scroll';
 import { animations } from 'react-animation';
 
-import WeddingImg from '@assets/images/wedding-logo.png';
+import WeddingImg from './assets/wedding-logo.png';
 import ScrollToDown from './ScrollToDown';
 import { styWrapper, styHero, styBackground } from './styles';
 import { THE_BRIDE } from '@/constants';
