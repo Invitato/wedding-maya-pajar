@@ -1,11 +1,26 @@
 import React from 'react';
 import useDateCountdown from '@/hooks/useDateCountdown';
+
+import { THE_BRIDE, YOUTUBE_LINK } from '@/constants';
 import CountItem from './CountItem';
 import { styMargin } from './styles';
 
 function CountContainer() {
   const { days, hours, minutes, seconds, timeHasRunOut, isEventOver } = useDateCountdown();
-  const finalText = isEventOver ? 'SUDAH' : 'SEDANG';
+  /**
+   * render alternative link
+   * if user can't play directly via Youtube Embed link
+   */
+  if (timeHasRunOut && !isEventOver) {
+    return (
+      <div style={{ marginBottom: '16px' }}>
+        Klik link berikut jika anda tidak bisa putar video: <br />
+        <a href={YOUTUBE_LINK} target="_blank" rel="noreferrer">
+          {`Youtube Live Akad  ${THE_BRIDE}`}
+        </a>
+      </div>
+    );
+  }
 
   if (timeHasRunOut) return null;
 

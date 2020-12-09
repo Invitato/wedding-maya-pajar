@@ -21,6 +21,18 @@ export const styWrapper = css`
     margin-top: 16px;
   }
 
+  .text__arabic {
+    margin-top: 2em;
+    font-size: 20px;
+    line-height: 2;
+    color: var(--font-black-ui);
+  }
+
+  .text__latin {
+    color: var(--font-black-ui);
+    font-size: 14px;
+  }
+
   @media screen and (max-width: 500px) {
     .sub-title {
       font-size: 18px;

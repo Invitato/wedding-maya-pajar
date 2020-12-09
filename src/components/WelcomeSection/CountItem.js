@@ -4,9 +4,9 @@ import { styWrapperCount } from './styles';
 
 function CountItem({ number, text }) {
   return (
-    <div css={styWrapperCount} style={{ backgroundColor: '#dac0c5' }}>
+    <div css={styWrapperCount}>
       <h3>{number}</h3>
-      <span style={{ color: '#fff' }}>{text}</span>
+      <span style={{ color: '#fefefe' }}>{text}</span>
     </div>
   );
 }

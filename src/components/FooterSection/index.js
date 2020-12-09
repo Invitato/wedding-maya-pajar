@@ -1,10 +1,18 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { bool } from 'prop-types';
 import LazyLoad from 'react-lazyload';
 import { animations } from 'react-animation';
-// import { styWrapper } from '../HelloSection/styles';
 
-import { THE_BRIDE, SOUND_BY, SOUND_URL, CUSTOM_ANIMATION, LAZY_LOAD } from '@/constants';
+import {
+  THE_BRIDE,
+  SOUND_BY,
+  SOUND_URL,
+  CUSTOM_ANIMATION,
+  LAZY_LOAD,
+  YOUTUBE_EMBED,
+  WEDDING_AKAD,
+  WEDDING_AKAD_TIME,
+} from '@/constants';
 import CountContainer from '../WelcomeSection/CountContainer';
 import { styWrapper } from './styles';
 
@@ -18,7 +26,7 @@ function FooterSection({ isInvitation }) {
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <LazyLoad {...LAZY_LOAD}>
-                <h3 style={{ marginTop: '2em', color: '#c18893' }}>{`Live Wedding ${THE_BRIDE}`}</h3>
+                <h3 className="pr-co" style={{ marginTop: '2em', fontSize: '2em' }}>{`Live Wedding ${THE_BRIDE}`}</h3>
               </LazyLoad>
 
               <LazyLoad height={200} offset={-10}>
@@ -30,12 +38,12 @@ function FooterSection({ isInvitation }) {
                     title="Live Wedding"
                     width="100%"
                     height="400"
-                    src="https://www.youtube.com/embed/XMk-W_Jg2Pc"
+                    src={YOUTUBE_EMBED}
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                   />
-                  <p className="info">Live: 08:00 WIB | Sabtu, 28 November 2020</p>
+                  <p className="info">{`Live ${WEDDING_AKAD_TIME} | ${WEDDING_AKAD}`}</p>
                 </div>
               </LazyLoad>
             </div>
@@ -43,7 +51,7 @@ function FooterSection({ isInvitation }) {
         </div>
       </div>
 
-      <div id="fh5co-couple">
+      <div id="fh5co-couple" className="secondary-bg">
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">

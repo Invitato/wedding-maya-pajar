@@ -14,16 +14,15 @@ function HelloSection({ isInvitation }) {
           <LazyLoad height={200} offset={-200}>
             <div className="row" style={{ paddingTop: '2em' }}>
               <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                {/* <h2 className="main-font">Assalamualaikum Wr. Wb</h2> */}
                 <h3
                   className="sub-title hs"
                   style={{ animation: CUSTOM_ANIMATION }}
                 >{`The Wedding of ${THE_BRIDE}`}</h3>
-                <p className="info quran" style={{ animation: CUSTOM_ANIMATION }}>
+                <p className="text__arabic" style={{ animation: CUSTOM_ANIMATION }}>
                   وَمِنْ ءَايَٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ
                   بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ
                 </p>
-                <p className="info" style={{ animation: CUSTOM_ANIMATION }}>
+                <p className="text__latin" style={{ animation: CUSTOM_ANIMATION }}>
                   "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu
                   sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih
                   dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang

@@ -2,12 +2,19 @@ import React from 'react';
 import { bool } from 'prop-types';
 import LazyLoad from 'react-lazyload';
 
+import {
+  CUSTOM_ANIMATION,
+  LAZY_LOAD,
+  WEDDING_AKAD,
+  WEDDING_AKAD_TIME,
+  WEDDING_RESEPSI,
+  WEDDING_RESEPSI_TIME,
+  WEDDING_LOCATION,
+  WEDDING_LOCATION_AKAD,
+} from '@/constants';
+
 import WeddingInfoBox from './WeddingInfoBox';
 import { styWrapper } from './styles';
-import { CUSTOM_ANIMATION, LAZY_LOAD } from '@/constants';
-
-const TIME = 'Sabtu, 28 November 2020';
-const LOCATION = `PO Hotel, Semarang`;
 
 function WeddingSection({ isInvitation }) {
   return (
@@ -29,12 +36,22 @@ function WeddingSection({ isInvitation }) {
           <div className="col-md-10 col-md-offset-1">
             <LazyLoad {...LAZY_LOAD} offset={0}>
               <div style={{ animation: CUSTOM_ANIMATION }}>
-                <WeddingInfoBox title="Akad Nikah" time="08:00 WIB" date={TIME} description={LOCATION} />
+                <WeddingInfoBox
+                  title="Akad Nikah"
+                  time={WEDDING_AKAD_TIME}
+                  date={WEDDING_AKAD}
+                  description={WEDDING_LOCATION_AKAD}
+                />
               </div>
             </LazyLoad>
             <LazyLoad {...LAZY_LOAD} offset={-200}>
               <div style={{ animation: CUSTOM_ANIMATION }}>
-                <WeddingInfoBox title="Resepsi Pernikahan" time="11.00 - 14.00" date={TIME} description={LOCATION} />
+                <WeddingInfoBox
+                  title="Resepsi Pernikahan"
+                  time={WEDDING_RESEPSI_TIME}
+                  date={WEDDING_RESEPSI}
+                  description={WEDDING_LOCATION}
+                />
               </div>
             </LazyLoad>
           </div>

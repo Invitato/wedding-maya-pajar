@@ -1,13 +1,17 @@
 import { css } from '@emotion/core';
-import Background from '../QuranSection/assets/bg.jpg';
+import Background from './img/bg-cream.png';
 
-export const styWrapper = css`
-  background-image: url(${Background});
-  background-size: cover;
-  background-position: center;
+export const styWrapper = (withBackground) => css`
   width: 100%;
   min-height: 70vh;
-  background-color: #fff;
+  background-color: #fefdfd;
+
+  ${withBackground &&
+  `
+    background-image: url(${Background});
+    background-size: cover;
+    background-position: bottom;
+  `}
 
   .sub-title {
     color: #828282;
@@ -19,11 +23,30 @@ export const styWrapper = css`
 
   .parent {
     margin: -16px 16px 16px 16px;
+    color: var(--font-black-ui);
   }
 
   p {
     font-size: 16px;
     margin-top: 16px;
+  }
+
+  .text__bride,
+  .text__groom {
+    font-size: 2.3em;
+  }
+
+  .img__symbol {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+
+  .img__bride,
+  .img__grom {
+    border-radius: 50%;
+    max-width: 140px;
+    margin-bottom: 16px;
   }
 
   @media screen and (max-width: 500px) {

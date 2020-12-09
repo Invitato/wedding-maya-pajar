@@ -1,5 +1,5 @@
 import { css, keyframes } from '@emotion/core';
-import Background from './assets/bg.jpg';
+import Background from '@assets/img/default.jpg';
 
 export const styHero = css`
   width: 100%;
@@ -239,6 +239,12 @@ export const styWrapperCount = css`
   border-radius: 14px 0;
   position: relative;
   color: #fff;
+  animation: pulse 1s infinite alternate;
+
+  span {
+    text-transform: none;
+    font-weight: normal;
+  }
 
   h3 {
     font-size: 30px;
