@@ -10,10 +10,10 @@ export const IS_USE_PHOTO_WEDDING = false;
  * @constants
  * for Brides information
  */
-export const THE_BRIDE = 'Maya & Fajar';
+export const THE_BRIDE = 'Maya & Pajar';
 export const GIRL_NAME = 'Mayantya Kusumawicitra Harmadi';
 export const GIRL_PARENT_NAME = `Putri dari Bapak Bambang Setyo Susion Harmadi <br /> & Ibu Evi Ratnaningrum`;
-export const BOY_NAME = 'Fajar Saputra';
+export const BOY_NAME = 'Pajar Saputra';
 export const BOY_PARENT_NAME = `Putra dari Bapak Hasan Basri Pulungan <br />& Ibu Nurainun`;
 
 /**
@@ -37,7 +37,7 @@ export const GOOGLE_MAPS_LINK = `https://g.page/HARRISHotelSentralandSemarang?sh
  * https://www.epochconverter.com/
  */
 export const EPOCH_START_EVENT = 1607734800;
-export const EPOCH_END_EVENT = 1607749200;
+export const EPOCH_END_EVENT = 1607752800;
 
 /**
  * @constants - wedding information
@@ -45,7 +45,7 @@ export const EPOCH_END_EVENT = 1607749200;
 export const WEDDING_AKAD = 'Sabtu, 12 December 2020';
 export const WEDDING_AKAD_TIME = '08:00 WIB';
 export const WEDDING_RESEPSI = 'Sabtu, 12 December 2020';
-export const WEDDING_RESEPSI_TIME = '11:00 - 12:00 WIB';
+export const WEDDING_RESEPSI_TIME = '11:00 - 13:00 WIB';
 export const WEDDING_LOCATION = `Diamond Ballroom, Pesona Hotel <br /> Jl. Depok No. 33 Semarang`;
 export const WEDDING_LOCATION_AKAD = WEDDING_LOCATION;
 
