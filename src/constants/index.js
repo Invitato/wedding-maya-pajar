@@ -43,9 +43,9 @@ export const EPOCH_END_EVENT = 1607752800;
 /**
  * @constants - wedding information
  */
-export const WEDDING_AKAD = 'Sabtu, 12 December 2020';
+export const WEDDING_AKAD = 'Sabtu, 12 Desember 2020';
 export const WEDDING_AKAD_TIME = '08:00 WIB';
-export const WEDDING_RESEPSI = 'Sabtu, 12 December 2020';
+export const WEDDING_RESEPSI = 'Sabtu, 12 Desember 2020';
 export const WEDDING_RESEPSI_TIME = '11:00 - 13:00 WIB';
 export const WEDDING_LOCATION = `Diamond Ballroom, Pesona Hotel <br /> Jl. Depok No. 33 Semarang`;
 export const WEDDING_LOCATION_AKAD = WEDDING_LOCATION;

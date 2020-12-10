@@ -62,8 +62,8 @@ function FooterSection({ isInvitation }) {
               <LazyLoad {...LAZY_LOAD}>
                 <p className="info" style={{ animation: ANIMATION.fadeInUp }}>
                   Sehubungan dengan kondisi saat ini mengenai pembatasan jumlah tamu undangan, <br />
-                  Tanpa mengurangi rasa hormat, kami mohon segala doa dan restu dari bapak/ ibu/saudara/i, dan kami
-                  berharap tetap dapat menjalin tali silahturahmi melalui media online.
+                  tanpa mengurangi rasa hormat, kami mohon segala doa dan restu dari bapak/ ibu/saudara/i, dan kami
+                  berharap tetap dapat menjalin tali silaturahmi melalui media online.
                 </p>
               </LazyLoad>
 

@@ -26,7 +26,7 @@ function HelloSection({ isInvitation }) {
                   "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu
                   sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih
                   dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang
-                  berfikir. (Qs. Ar-Ruum: 21)
+                  berfikir." (Qs. Ar-Ruum: 21)
                 </p>
               </div>
             </div>

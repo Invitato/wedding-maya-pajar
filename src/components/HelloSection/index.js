@@ -33,8 +33,8 @@ function HelloSection({ isInvitation }) {
                 <h3 className="sub-title hs">BISMILLAHIRAHMANIRRAHIIM</h3>
                 <h3 className="sub-title hs">Assalamualaikum Wr. Wb</h3>
                 <p className="info">
-                  Dengan penuh rasa atas limpahan ramhat dan ridho Allah SWT, <br />
-                  kami bermaksud menyelenggarakan acara resepsi pernikahan putra-putri kami:
+                  Dengan penuh rasa atas limpahan ramhat dan ridho Allah SWT, kami bermaksud menyelenggarakan acara
+                  resepsi pernikahan putra-putri kami:
                 </p>
               </div>
             </div>
