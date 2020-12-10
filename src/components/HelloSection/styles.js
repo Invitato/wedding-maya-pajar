@@ -1,5 +1,5 @@
 import { css } from '@emotion/core';
-import Background from './img/bg-cream.png';
+import Background from './img/bg-flower.jpg';
 
 export const styWrapper = (withBackground) => css`
   width: 100%;
