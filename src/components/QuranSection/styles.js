@@ -2,6 +2,7 @@ import { css } from '@emotion/core';
 
 export const styWrapper = css`
   background: #f7f5ee;
+  background-color: #f7f5ee;
 
   .sub-title {
     color: var(--font-black-ui);
@@ -54,6 +55,7 @@ export const styWrapper = css`
 export const styDivider = css`
   margin-top: 0;
   background: #f7f5ee;
+  background-color: #f7f5ee;
 
   img {
     display: block;

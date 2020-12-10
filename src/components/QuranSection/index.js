@@ -35,7 +35,7 @@ function HelloSection({ isInvitation }) {
       </div>
 
       <LazyLoad height={200} offset={-100}>
-        <div css={styDivider} style={{ animation: CUSTOM_ANIMATION }}>
+        <div css={styDivider} style={{ animation: CUSTOM_ANIMATION, backgroundColor: '#f7f5ee;' }}>
           <img src={IMG_DIVIDER} alt="divider" />
         </div>
       </LazyLoad>

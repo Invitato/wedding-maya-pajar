@@ -1,5 +1,5 @@
 import { css, keyframes } from '@emotion/core';
-import Background from '@assets/img/default.jpg';
+import Background from './assets/cover-bg.jpg';
 
 export const styHero = css`
   width: 100%;
@@ -124,7 +124,7 @@ export const styScrollWrapper = css`
 export const styBackground = css`
   background-size: cover;
   background-image: url(${Background});
-  background-position: center;
+  background-position: bottom;
   width: 100%;
   height: 100%;
   display: flex;
