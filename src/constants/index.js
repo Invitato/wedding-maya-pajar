@@ -19,7 +19,8 @@ export const BOY_PARENT_NAME = `Putra dari Bapak Hasan Basri Pulungan <br />& Ib
 /**
  * @constants - SEO Requirement
  */
-export const SEO_IMAGE = '';
+export const SEO_IMAGE =
+  'https://user-images.githubusercontent.com/10141928/101773263-25d9fc80-3b1f-11eb-8c84-3698f57602df.jpg';
 export const SEO_URL = 'https://invitato.net';
 export const SEO_TITLE = `The Wedding of ${THE_BRIDE} by Invitao.net`;
 export const SEO_DESCRIPTION = `Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan. - ${THE_BRIDE}`;
