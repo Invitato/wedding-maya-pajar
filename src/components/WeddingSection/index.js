@@ -28,7 +28,9 @@ function WeddingSection({ isInvitation }) {
                 Akad Nikah dan <br />
                 Resepsi Pernikahan
               </h2>
-              <span className="sub-title sub-title__wedding">Insha Allah akan diselenggarakan pada:</span>
+              <span className="sub-title sub-title__wedding">
+                Insha Allah akan <br /> diselenggarakan pada:
+              </span>
             </div>
           </div>
         </LazyLoad>

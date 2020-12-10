@@ -12,7 +12,7 @@ function HelloSection({ isInvitation }) {
       <div id="id-hello-section" css={styWrapper}>
         <div className="container" style={{ paddingTop: '2em' }}>
           <LazyLoad height={200} offset={-200}>
-            <div className="row" style={{ paddingTop: '2em' }}>
+            <div className="row" style={{ padding: '1em 0' }}>
               <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
                 <h3
                   className="sub-title hs"
@@ -33,12 +33,6 @@ function HelloSection({ isInvitation }) {
           </LazyLoad>
         </div>
       </div>
-
-      <LazyLoad height={200} offset={-100}>
-        <div css={styDivider} style={{ animation: CUSTOM_ANIMATION, backgroundColor: '#f7f5ee;' }}>
-          <img src={IMG_DIVIDER} alt="divider" />
-        </div>
-      </LazyLoad>
     </Fragment>
   );
 }

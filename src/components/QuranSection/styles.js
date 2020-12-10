@@ -10,6 +10,8 @@ export const styWrapper = css`
     letter-spacing: 1px;
     line-height: 20px;
     font-family: var(--font-family-content);
+    font-style: italic;
+    font-size: 22px;
   }
 
   .quran {

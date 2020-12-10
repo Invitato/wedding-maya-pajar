@@ -236,7 +236,7 @@ export const styWrapperCount = css`
   height: 100px;
   background: var(--font-primary);
   margin: 8px;
-  border-radius: 14px 0;
+  border-radius: 50%;
   position: relative;
   color: #fff;
   animation: pulse 1s infinite alternate;

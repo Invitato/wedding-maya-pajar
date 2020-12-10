@@ -24,6 +24,8 @@ function HelloSection({ isInvitation }) {
   return (
     <Fragment>
       <div id="fh5co-couple" css={styWrapper(true)} className="fh5co-section-gray">
+        <div className="overlay"></div>
+
         <div className="container" style={{ marginTop: '2em' }}>
           <LazyLoad {...LAZY_LOAD}>
             <div className="row" style={{ animation: ANIMATION.fadeInUp }}>

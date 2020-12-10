@@ -26,7 +26,11 @@ function FooterSection({ isInvitation }) {
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <LazyLoad {...LAZY_LOAD}>
-                <h3 className="pr-co" style={{ marginTop: '2em', fontSize: '2em' }}>{`Live Wedding ${THE_BRIDE}`}</h3>
+                <h3
+                  className="pr-co main-font"
+                  style={{ marginTop: '2em', fontSize: '2em' }}
+                  dangerouslySetInnerHTML={{ __html: `Live Wedding <br /> ${THE_BRIDE}` }}
+                />
               </LazyLoad>
 
               <LazyLoad height={200} offset={-10}>

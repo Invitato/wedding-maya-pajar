@@ -1,8 +1,10 @@
 import { css } from '@emotion/core';
+import Background from '../HelloSection/img/bg.jpg';
 
 export const styWrapper = css`
   background-size: cover;
   background-position: bottom;
+  background-image: url(${Background});
   width: 100%;
   min-height: 70vh;
 
